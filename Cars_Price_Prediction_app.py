@@ -57,3 +57,4 @@ if st.button('Predict'):
     st.header('Predicted Price')
     st.markdown('**Price in USD**: $' + str(round(price_usd, 2)))
     st.markdown('**Price in lakh**: ' + str(round(price[0][0], 2)))
+!python -m pipreqs.pipreqs
